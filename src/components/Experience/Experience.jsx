@@ -38,7 +38,6 @@ function Experience() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-
                 <div className="flex flex-col justify-between">
                   <div>
                     <h3 className="text-xl sm:text-2xl font-semibold text-white">
