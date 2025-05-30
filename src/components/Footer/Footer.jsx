@@ -16,9 +16,7 @@ function Footer() {
     className='text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]'
     >
       <div className='text-center mx-auto container'>
-        <h3 className='font-semibold text-gray-600 text-lg'>
-          © 2025 Aman
-        </h3>
+        
         <nav className='flex flex-wrap justify-center mt-4 space-x-4 sm: space-x-6'>
           {[
             {id:"about",name: "About"},
@@ -56,6 +54,9 @@ function Footer() {
             </a>
           ))}
         </div>
+        <h3 className='mt-6 font-base text-gray-600 text-lg'>
+          © 2025 Aman. All rights reserved.
+        </h3>
       </div>
 
 

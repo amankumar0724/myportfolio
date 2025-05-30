@@ -28,7 +28,7 @@ function Experience() {
               <img src={exp.companyLogo} alt={`${exp.company} logo`} className='w-full h-full object-cover rounded-full'/>
             </div>
             <div className={`w-full sm:max-w-md p-4 sm:p-8 
-            rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] transform transition-transform duration-300 hover:scale-105 ${index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"} sm:ml-44 sm:mr-44 ml-8 `}
+            rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] transform transition-transform duration-300 hover:scale-105 ${index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"} sm:ml-[15rem] sm:mr-[15rem] ml-8 `}
             >
               <div className="flex items-center space-x-6">
                 <div className="w-16 h-16 bg-white rounded-2xl overflow-hidden">
