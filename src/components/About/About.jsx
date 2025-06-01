@@ -61,7 +61,7 @@ function About() {
             
           >
             <img 
-              src="../../src/assets/profile.png" 
+              src="https://media.licdn.com/dms/image/v2/D4D03AQE3DcOFajoo1w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1678939059223?e=1754524800&v=beta&t=JAM6-HMPf5Pz0GxC3ntZ_FGl_H3seSzCTVgz7nWAmsQ" 
               alt="profile pic" 
               className='w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]'
               />
