@@ -59,7 +59,7 @@ function Contact() {
     >
       <ToastContainer/>
       <div className='text-center mb-16'>
-        <h2 className='text-white text-bold text-3xl sm:text-4xl'>EDUCATION</h2>
+        <h2 className='text-white text-bold text-3xl sm:text-4xl'>Contact</h2>
         <div className='w-40 h-1 bg-[#8245ec] mx-auto mt-2'></div>
         <p className='text-gray-400 mt-4 text-lg font-semibold'>
           "Programmers are not to be measured by their ingenuity and their logic but by the completeness of their communication."
