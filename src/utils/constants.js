@@ -18,13 +18,14 @@ import reduxLogo from '../assets/reduxLogo.png'
 import schoolLogo from '../assets/schoolLogo.png'
 import tailwindcssLogo from '../assets/tailwindcssLogo.png'
 import vscodeLogo from '../assets/vscodeLogo.png'
-import thinksyncLogo from '../assets/thinksyncLogo.png'
-import chitchatLogo from '../assets/chitchatLogo.jpg'
 import renderLogo from '../assets/renderLogo.jpeg'
 import unifiedLogo from '../assets/unifiedLogo.png'
 import javaLogo from '../assets/javaLogo.png'
 import pythonLogo from '../assets/pythonLogo.png'
 import appwriteLogo from '../assets/appwriteLogo.png'
+import thinksyncLogo from '../assets/thinksyncLogo.png'
+import chitchatLogo from '../assets/chitchatLogo.jpg'
+import curecartLogo from '../assets/curecartLogo.png'
 
 
 // project images 
@@ -42,6 +43,29 @@ import accident6 from '../assets/Project_Images/AccidentDetection_6.jpg'
 import chitchat1 from '../assets/Project_Images/ChitChat_1.jpg'
 import chitchat2 from '../assets/Project_Images/ChitChat_2.jpg'
 import chitchat3 from '../assets/Project_Images/ChitChat_3.jpg'
+import curecart1 from '../assets/Project_Images/CureCart_1.png'
+import curecart2 from '../assets/Project_Images/CureCart_2.png'
+import curecart3 from '../assets/Project_Images/CureCart_3.png'
+import curecart4 from '../assets/Project_Images/CureCart_4.png'
+import curecart5 from '../assets/Project_Images/CureCart_5.png'
+import curecart6 from '../assets/Project_Images/CureCart_6.png'
+import curecart7 from '../assets/Project_Images/CureCart_7.png'
+import curecart8 from '../assets/Project_Images/CureCart_8.png'
+import curecart9 from '../assets/Project_Images/CureCart_9.png'
+import curecart10 from '../assets/Project_Images/CureCart_10.png'
+import curecart11 from '../assets/Project_Images/CureCart_11.png'
+import curecart12 from '../assets/Project_Images/CureCart_12.png'
+import curecart13 from '../assets/Project_Images/CureCart_13.png'
+import curecart14 from '../assets/Project_Images/CureCart_14.png'
+import curecart15 from '../assets/Project_Images/CureCart_15.png'
+import curecart16 from '../assets/Project_Images/CureCart_16.png'
+import curecart17 from '../assets/Project_Images/CureCart_17.png'
+import curecart18 from '../assets/Project_Images/CureCart_18.png'
+import curecart19 from '../assets/Project_Images/CureCart_19.png'
+import curecart20 from '../assets/Project_Images/CureCart_20.png'
+import curecart21 from '../assets/Project_Images/CureCart_21.png'
+
+
 
 // coming soon
 import coming_soon_icon from '../assets/Icons/coming_soon_icon.png'
@@ -126,6 +150,20 @@ export const skillsData = [
   export const projectsData = [
     {
       id: 0,
+      title: "CureCart - A full stack e-pharmacy platform",
+      type: "Website",
+      description:
+        "Developed a complete e-pharmacy solution using the MERN stack (MongoDB, Express.js, React.js, Node.js) with separate dashboards for Admin, Customer, and Pharmacy. Designed a modern, responsive UI using TailwindCSS and Material UI to ensure an enhanced user experience. Integrated the Razorpay payment gateway for secure online transactions related to medicine purchases. Implemented secure JWT-based authentication along with role-based access control to protect routes. Enabled full CRUD operations for medicines, order tracking, and customer profile management using Axios for seamless API communication.",
+      image: curecartLogo,
+      images:[
+        curecart1,curecart2,curecart3,curecart4,curecart5,curecart6,curecart7,curecart8,curecart9,curecart10,curecart11,curecart12,curecart13,curecart14,curecart15,curecart16,curecart17,curecart18,curecart19,curecart20,curecart21
+      ],
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Express JS", "Node JS", "MongoDb", "Material UI", "TailwindCSS", "RESTful APIs", "Razorpay SDK", "JWT Authentication"],
+      githubLink: "https://github.com/amankumar0724/myportfolio",
+      demoLink: "https://cure-cart.netlify.app/",
+    },
+    {
+      id: 1,
       title: "ThinkSync - Blog website",
       type: "Website",
       description:
@@ -143,7 +181,7 @@ export const skillsData = [
       demoLink: "https://thinksync-think-write-sync.onrender.com/",
     },
     {
-      id: 1,
+      id: 2,
       title: "Chit Chat",
       type: "Android",
       description:
@@ -159,7 +197,7 @@ export const skillsData = [
       demoLink: "",
     },
     {
-      id: 2,
+      id: 3,
       title: "Accident Detection App",
       type: "Android",
       description:
@@ -178,7 +216,7 @@ export const skillsData = [
       demoLink: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "Desktop Assistant",
       type: "Others",
       description:
