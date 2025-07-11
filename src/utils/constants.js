@@ -26,6 +26,8 @@ import appwriteLogo from '../assets/appwriteLogo.png'
 import thinksyncLogo from '../assets/thinksyncLogo.png'
 import chitchatLogo from '../assets/chitchatLogo.jpg'
 import curecartLogo from '../assets/curecartLogo.png'
+import skillviewLogo from '../assets/skillviewLogo.png'
+
 
 
 // project images 
@@ -64,6 +66,21 @@ import curecart18 from '../assets/Project_Images/CureCart_18.png'
 import curecart19 from '../assets/Project_Images/CureCart_19.png'
 import curecart20 from '../assets/Project_Images/CureCart_20.png'
 import curecart21 from '../assets/Project_Images/CureCart_21.png'
+import skillview1 from '../assets/Project_Images/SkillView_1.png'
+import skillview2 from '../assets/Project_Images/SkillView_2.png'
+import skillview3 from '../assets/Project_Images/SkillView_3.png'
+import skillview4 from '../assets/Project_Images/SkillView_4.png'
+import skillview5 from '../assets/Project_Images/SkillView_5.png'
+import skillview6 from '../assets/Project_Images/SkillView_6.png'
+import skillview7 from '../assets/Project_Images/SkillView_7.png'
+import skillview8 from '../assets/Project_Images/SkillView_8.png'
+import skillview9 from '../assets/Project_Images/SkillView_9.png'
+import skillview10 from '../assets/Project_Images/SkillView_10.png'
+import skillview11 from '../assets/Project_Images/SkillView_11.png'
+import skillview12 from '../assets/Project_Images/SkillView_12.png'
+import skillview13 from '../assets/Project_Images/SkillView_13.png'
+import skillview14 from '../assets/Project_Images/SkillView_14.png'
+import skillview15 from '../assets/Project_Images/SkillView_15.png'
 
 
 
@@ -181,7 +198,21 @@ export const skillsData = [
       demoLink: "https://thinksync-think-write-sync.onrender.com/",
     },
     {
-      id: 2,
+      id: 1,
+      title: "SkillView - Virtual Interview Platform",
+      type: "Website",
+      description:
+        "Built a user-friendly virtual interview platform focused on enhancing the candidate and interviewer experience. Integrated multi-authentication via NextAuth, supporting credentials, Google, and GitHub OAuth. Designed intuitive role-based dashboards with clean, accessible interfaces. Ensured seamless scheduling and joining of interviews with automated status updates. Provided a smooth and professional interview flow with real-time video and audio. Prioritized accessibility, responsive design, and ease of use for users across roles.",
+      image: skillviewLogo,
+      images:[
+        skillview1, skillview2,skillview3,skillview4,skillview5,skillview6, skillview7,skillview8,skillview9,skillview10,skillview11, skillview12,skillview13,skillview14,skillview15
+      ],
+      tags: ["TailwindCSS", "Shadcn", "TypeScript", "React.js", "Next.js", "MongoDb", "NextAuth", "GetStream", "RESTful APIs"],
+      githubLink: "https://github.com/amankumar0724/SkillView-Next-Project",
+      demoLink: "https://skillview-io.vercel.app/",
+    },
+    {
+      id: 3,
       title: "Chit Chat",
       type: "Android",
       description:
@@ -197,7 +228,7 @@ export const skillsData = [
       demoLink: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "Accident Detection App",
       type: "Android",
       description:
@@ -216,7 +247,7 @@ export const skillsData = [
       demoLink: "",
     },
     {
-      id: 4,
+      id: 5,
       title: "Desktop Assistant",
       type: "Others",
       description:
