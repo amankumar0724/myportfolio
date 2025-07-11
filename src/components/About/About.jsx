@@ -21,9 +21,10 @@ function About() {
             </span>
             <ReactTypingEffect
               text={[
-                ' Web Developer.',
                 ' Coder.',
+                ' Web Developer.',
                 ' Android Developer.',
+
               ]}
               speed={100}
               eraseSpeed={50}
