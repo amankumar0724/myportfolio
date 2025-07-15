@@ -40,7 +40,7 @@ function Navbar() {
         {/* logo */}
         <div className='text-lg font-semibold cursor-pointer' >
           <span className='text-[#8245ec]'>&lt;</span>
-          <span className='text-white'>Aman</span>
+          <span className='text-white'>Abhishek</span>
           <span className='text-[#8245ec]'>/</span>
           <span className='text-white'>Kumar</span>
           <span className='text-[#8245ec]'>&gt;</span>
@@ -59,7 +59,7 @@ function Navbar() {
         </ul>
         {/* social contacts */}
         <div className='hidden md:flex space-x-4' >
-          <a href="https://github.com/amankumar0724/"
+          <a href="https://github.com/abhi5h6k/"
             target='_blank'
             rel='noopener noreferrer'
             label='Github'
@@ -68,7 +68,7 @@ function Navbar() {
           >
             <FaGithub size={24} onClick={() => handleMenuOption('Github')}/>
           </a>
-          <a href="https://www.linkedin.com/in/aman-kumar-902aa824b/"
+          <a href="https://www.linkedin.com/in/abhi180703/"
             target='_blank'
             rel='noopener noreferrer'
             label='LinkedIn'
@@ -76,16 +76,6 @@ function Navbar() {
               ${activeMenuOption === 'LinkedIn' ? 'text-[#8245ec]' : ''}`}
           >
             <FaLinkedin size={24} onClick={() => handleMenuOption('LinkedIn')}/>
-          </a>
-
-          <a href="https://www.instagram.com/aman_k_0724/"
-            target='_blank'
-            rel='noopener noreferrer'
-            label='Instagram'
-            className={`text-gray-300 cursor-pointer hover:text-[#8245ec] 
-              ${activeMenuOption === 'Instagram' ? 'text-[#8245ec]' : ''}`}
-          >
-            <FaInstagram size={24} onClick={() => handleMenuOption('Instagram')}/>
           </a>
 
         </div>
@@ -119,7 +109,7 @@ function Navbar() {
               </li>
             ))}
             <div className="flex space-x-4">
-                <a href="https://github.com/amankumar0724/"
+                <a href="https://github.com/abhi5h6k/"
                 target='_blank'
                 rel='noopener noreferrer'
                 label='Github'
@@ -128,7 +118,7 @@ function Navbar() {
               >
                 <FaGithub size={24} onClick={() => handleMenuOption('Github')}/>
               </a>
-              <a href="https://www.linkedin.com/in/aman-kumar-902aa824b/"
+              <a href="https://www.linkedin.com/in/abhi180703/"
                 target='_blank'
                 rel='noopener noreferrer'
                 label='LinkedIn'

@@ -16,6 +16,7 @@ import postmanLogo from '../assets/postmanLogo.png'
 import reactjsLogo from '../assets/reactjsLogo.png'
 import reduxLogo from '../assets/reduxLogo.png'
 import schoolLogo from '../assets/schoolLogo.png'
+import schoolLogo1 from '../assets/schoolLogo1.png'
 import tailwindcssLogo from '../assets/tailwindcssLogo.png'
 import vscodeLogo from '../assets/vscodeLogo.png'
 import renderLogo from '../assets/renderLogo.jpeg'
@@ -140,66 +141,34 @@ export const skillsData = [
       logo: collegeLogo,
       school: "Indian Institute of Information Technology, Allahabad",
       duration: "November 2022 - Present",
-      grade: "8.55 CGPA",
+      grade: "8.41 CGPA",
       desc: "I am pursuing a Bachelor of Technology in Electronics and Communication  Engineering.",
       degree: "Bachelor of Technology in Electronics and Communication Engineering",
     },
     {
       id: 1,
       logo: schoolLogo,
-      school: "St. Dominic's Academy, Shikohabad",
+      school: "Rajkiyakrit Laleshwar Nath H/S, Marauna, Supaul, Bihar",
       duration: "Apr 2019 - March 2021",
-      grade: "96.4%",
-      desc: "I completed my class 12 education from St. Dominic's Academy, Shikohabad, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
+      grade: "86.6%",
+      desc: "I completed my class 12 education from Rajkiyakrit Laleshwar Nath H/S, Marauna, Supaul, Bihar, under the Bihar School Education board, where I studied Physics, Chemistry, and Mathematics (PCM) with Biology.",
+      degree: "BSEB(XII) - PCM with Biology",
     },
     {
       id: 2,
-      logo: schoolLogo,
-      school: "St. Dominic's Academy, Shikohabad",
+      logo: schoolLogo1,
+      school: "Delhi Public School, Basuara, Sadar Madhubani, Bihar",
       duration: "Apr 2018 - March 2019",
-      grade: "95.6%",
-      desc: "I completed my class 10 education from St. Dominic's Academy, Shikohabad, under the CBSE board.",
-      degree: "CBSE(X) with Computer Science",
+      grade: "94.6%",
+      desc: "I completed my class 10 education from Delhi Public School, Basuara, Sadar Madhubani, Bihar, under the CBSE board.",
+      degree: "CBSE(X)",
     },
   ];
   
   export const projectsData = [
     {
       id: 0,
-      title: "CureCart - A full stack e-pharmacy platform",
-      type: "Website",
-      description:
-        "Developed a complete e-pharmacy solution using the MERN stack (MongoDB, Express.js, React.js, Node.js) with separate dashboards for Admin, Customer, and Pharmacy. Designed a modern, responsive UI using TailwindCSS and Material UI to ensure an enhanced user experience. Integrated the Razorpay payment gateway for secure online transactions related to medicine purchases. Implemented secure JWT-based authentication along with role-based access control to protect routes. Enabled full CRUD operations for medicines, order tracking, and customer profile management using Axios for seamless API communication.",
-      image: curecartLogo,
-      images:[
-        curecart1,curecart2,curecart3,curecart4,curecart5,curecart6,curecart7,curecart8,curecart9,curecart10,curecart11,curecart12,curecart13,curecart14,curecart15,curecart16,curecart17,curecart18,curecart19,curecart20,curecart21
-      ],
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "Express JS", "Node JS", "MongoDb", "Material UI", "TailwindCSS", "RESTful APIs", "Razorpay SDK", "JWT Authentication"],
-      githubLink: "https://github.com/amankumar0724/myportfolio",
-      demoLink: "https://cure-cart.netlify.app/",
-    },
-    {
-      id: 1,
-      title: "ThinkSync - Blog website",
-      type: "Website",
-      description:
-        "Developed a full-stack blog web application using React.js, Node.js, Express.js, and MongoDB with a focus on seamless user experience. The frontend features a responsive and intuitive UI built with Material UI, HTML/CSS, and JavaScript. RESTful APIs were created using Express.js and tested with Postman to handle CRUD operations for blogs and comments. Implemented JWT-based authentication for secure user sign-up, sign-in, and authorization. ",
-      image: thinksyncLogo,
-      images:[
-        thinksync1,
-        thinksync2,
-        thinksync3,
-        thinksync4,
-        thinksync5,
-      ],
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "Express JS", "Node JS", "MongoDb", "Material UI", "Cloudinary", "RESTful APIs"],
-      githubLink: "https://github.com/amankumar0724/mernProject/tree/master",
-      demoLink: "https://thinksync-think-write-sync.onrender.com/",
-    },
-    {
-      id: 1,
-      title: "SkillView - Virtual Interview Platform",
+      title: "SkillView",
       type: "Website",
       description:
         "Built a user-friendly virtual interview platform focused on enhancing the candidate and interviewer experience. Integrated multi-authentication via NextAuth, supporting credentials, Google, and GitHub OAuth. Designed intuitive role-based dashboards with clean, accessible interfaces. Ensured seamless scheduling and joining of interviews with automated status updates. Provided a smooth and professional interview flow with real-time video and audio. Prioritized accessibility, responsive design, and ease of use for users across roles.",
@@ -207,12 +176,12 @@ export const skillsData = [
       images:[
         skillview1, skillview2,skillview3,skillview4,skillview5,skillview6, skillview7,skillview8,skillview9,skillview10,skillview11, skillview12,skillview13,skillview14,skillview15
       ],
-      tags: ["TailwindCSS", "Shadcn", "TypeScript", "React.js", "Next.js", "MongoDb", "NextAuth", "GetStream", "RESTful APIs"],
+      tags: ["TailwindCSS", "Shadcn", "TypeScript", "React.js", "Next.js", "MongoDb", "RESTful APIs"],
       githubLink: "https://github.com/amankumar0724/SkillView-Next-Project",
       demoLink: "https://skillview-io.vercel.app/",
     },
     {
-      id: 3,
+      id: 1,
       title: "Chit Chat",
       type: "Android",
       description:
@@ -228,7 +197,7 @@ export const skillsData = [
       demoLink: "",
     },
     {
-      id: 4,
+      id: 2,
       title: "Accident Detection App",
       type: "Android",
       description:
@@ -247,7 +216,7 @@ export const skillsData = [
       demoLink: "",
     },
     {
-      id: 5,
+      id: 3,
       title: "Desktop Assistant",
       type: "Others",
       description:
@@ -272,22 +241,4 @@ export const skillsData = [
       duration: "May 2025 - Present",
       tags: ["HTML", "CSS", "TailwindCSS","React JS", "Express JS", "Node JS", "MongoDb"],
     },
-    // {
-    //   id: 1,
-    //   role: "Web Developer Intern",
-    //   company: "Unified Mentor",
-    //   companyLogo: unifiedLogo,
-    //   description: "Currently developing a Clinic Management System website for Unified Mentor using the MERN stack (MongoDB, Express.js, React.js, Node.js). It features a responsive, user-friendly interface, secure JWT-based authentication, and role-based access control to ensure efficient and secure interaction for both patients and healthcare providers.",
-    //   duration: "May 2025 - Present",
-    //   tags: ["HTML", "CSS", "TailwindCSS","React JS", "Express JS", "Node JS", "MongoDb"],
-    // },
-    // {
-    //   id: 2,
-    //   role: "Web Developer Intern",
-    //   company: "Unified Mentor",
-    //   companyLogo: unifiedLogo,
-    //   description: "Currently developing a Clinic Management System website for Unified Mentor using the MERN stack (MongoDB, Express.js, React.js, Node.js). It features a responsive, user-friendly interface, secure JWT-based authentication, and role-based access control to ensure efficient and secure interaction for both patients and healthcare providers.",
-    //   duration: "May 2025 - Present",
-    //   tags: ["HTML", "CSS", "TailwindCSS","React JS", "Express JS", "Node JS", "MongoDb"],
-    // },
   ];
