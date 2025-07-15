@@ -1,12 +1,42 @@
-# React + Vite
+# 🚀 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive developer portfolio website built using **React**, **Tailwind CSS**, and **Swiper.js**. This portfolio showcases projects, skills, experience, and contact information in a clean and interactive layout.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗[View Live Site](https://amankumar0724.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Tech Stack
+
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **Slider/Carousel**: Swiper.js
+- **Icons**: React Icons
+- **Animations**: CSS transitions
+
+---
+
+## 📸 Features
+
+- ✅ Fully responsive design (Mobile / Tablet / Desktop)
+- ✅ Project showcase carousel (Swiper.js)
+- ✅ Animated navigation and sections
+- ✅ Smooth scrolling and interactive UI
+- ✅ Skillset & tech stack grid
+- ✅ Contact form (Integrated with EmailJS)
+- ✅ SEO-friendly structure and metadata
+
+---
+
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
