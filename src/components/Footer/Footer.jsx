@@ -38,8 +38,10 @@ function Footer() {
         </nav>
         <div className='flex flex-wrap justify-center mt-6 space-x-4'>
           {[
-            {icon:<FaLinkedin/>,link:"https://www.linkedin.com/in/abhi180703/"},
-            {icon:<FaGithub/>,link:"https://github.com/abhi5h6k/"},
+            {icon:<FaTwitter/>,link:"https://x.com/amankumar0724"},
+            {icon:<FaLinkedin/>,link:"https://www.linkedin.com/in/aman-kumar-902aa824b/"},
+            {icon:<FaGithub/>,link:"https://github.com/amankumar0724/"},
+            {icon:<FaInstagram/>,link:"https://www.instagram.com/aman_k_0724/"},
           ].map((item,index) => (
             <a 
             key={index}
@@ -53,7 +55,7 @@ function Footer() {
           ))}
         </div>
         <h3 className='mt-6 font-base text-gray-600 text-lg'>
-          © 2025 Abhi. All rights reserved.
+          © 2025 Aman. All rights reserved.
         </h3>
       </div>
 
