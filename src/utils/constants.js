@@ -27,7 +27,7 @@ import thinksyncLogo from '../assets/thinksyncLogo.png'
 import chitchatLogo from '../assets/chitchatLogo.jpg'
 import curecartLogo from '../assets/curecartLogo.png'
 import skillviewLogo from '../assets/skillviewLogo.png'
-
+import directionClinicLogo from '../assets/directionClinicLogo.png'
 
 
 // project images 
@@ -81,6 +81,21 @@ import skillview12 from '../assets/Project_Images/SkillView_12.png'
 import skillview13 from '../assets/Project_Images/SkillView_13.png'
 import skillview14 from '../assets/Project_Images/SkillView_14.png'
 import skillview15 from '../assets/Project_Images/SkillView_15.png'
+import directionclinic1 from '../assets/Project_Images/DirectionClinic_1.png'
+import directionclinic2 from '../assets/Project_Images/DirectionClinic_2.png'
+import directionclinic3 from '../assets/Project_Images/DirectionClinic_3.png'
+import directionclinic4 from '../assets/Project_Images/DirectionClinic_4.png'
+import directionclinic5 from '../assets/Project_Images/DirectionClinic_5.png'
+import directionclinic6 from '../assets/Project_Images/DirectionClinic_6.png'
+import directionclinic7 from '../assets/Project_Images/DirectionClinic_7.png'
+import directionclinic8 from '../assets/Project_Images/DirectionClinic_8.png'
+import directionclinic9 from '../assets/Project_Images/DirectionClinic_9.png'
+import directionclinic10 from '../assets/Project_Images/DirectionClinic_10.png'
+import directionclinic11 from '../assets/Project_Images/DirectionClinic_11.png'
+import directionclinic12 from '../assets/Project_Images/DirectionClinic_12.png'
+import directionclinic13 from '../assets/Project_Images/DirectionClinic_13.png'
+
+
 
 
 
@@ -248,6 +263,20 @@ export const skillsData = [
     },
     {
       id: 5,
+      title: "Direction - Clinic Management System",
+      type: "Website",
+      description:
+        "Direction is a lightweight, modular, and scalable Clinic Workflow Management System designed to streamline communication and task management between Doctors and Receptionists. It automates patient token generation, prescription sharing, billing, and patient history tracking — all stored securely in Firebase. The Direction system simplifies communication and record-keeping between Receptionists and Doctors. Receptionists generate patient tokens and enter personal data into the system. Doctors receive this data and add prescriptions. Both roles can access patient history anytime.",
+      image: directionClinicLogo,
+      images:[
+        directionclinic1,directionclinic2,directionclinic3,directionclinic4,directionclinic5,directionclinic6,directionclinic7,directionclinic8,directionclinic9,directionclinic10,directionclinic11,directionclinic12,directionclinic13
+      ],
+      tags: ["Material UI","JavaScript", "React JS", "Firebase"],
+      githubLink: "https://github.com/amankumar0724/Direction---Clinic-Management-System.git",
+      demoLink: "https://direction-clinic-management-system.netlify.app/",
+    },
+    {
+      id: 6,
       title: "Desktop Assistant",
       type: "Others",
       description:
@@ -268,9 +297,9 @@ export const skillsData = [
       role: "Web Developer Intern",
       company: "Unified Mentor",
       companyLogo: unifiedLogo,
-      description: "Currently developing a Clinic Management System website for Unified Mentor using the MERN stack (MongoDB, Express.js, React.js, Node.js). It features a responsive, user-friendly interface, secure JWT-based authentication, and role-based access control to ensure efficient and secure interaction for both patients and healthcare providers.",
-      duration: "May 2025 - Present",
-      tags: ["HTML", "CSS", "TailwindCSS","React JS", "Express JS", "Node JS", "MongoDb"],
+      description: "Developed a Clinic Management System website for Unified Mentor using the MERN stack (MongoDB, Express.js, React.js, Node.js). It features a responsive, user-friendly interface, secure JWT-based authentication, and role-based access control to ensure efficient and secure interaction for both patients and healthcare providers.",
+      duration: "May 2025 - July 2025",
+      tags: ["HTML", "CSS","Material UI", "TailwindCSS","React JS", "Express JS", "Node JS", "MongoDb", "Firebase"],
     },
     // {
     //   id: 1,
