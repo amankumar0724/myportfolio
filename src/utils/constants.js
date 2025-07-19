@@ -213,7 +213,7 @@ export const skillsData = [
       demoLink: "https://thinksync-think-write-sync.onrender.com/",
     },
     {
-      id: 1,
+      id: 2,
       title: "SkillView - Virtual Interview Platform",
       type: "Website",
       description:
