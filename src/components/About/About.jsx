@@ -39,7 +39,7 @@ function About() {
             I am a web developer building scalable web applications. Skilled in both front-end and back-end development, I am specialized in the MERN stack to create seamless user experiencing and efficient solutions.
           </p>
           {/* <a href="https://drive.google.com/file/d/1pSAUcf4kx6akOSdA60Y8qY0i2mSMYUsL/view?usp=sharing" */}
-          <a href="https://drive.google.com/file/d/1ZOhPj4Mmq8Ikm6-ZO_DlUqC1dCbOm0PS/view"
+          <a href="https://drive.google.com/file/d/1pbYFP2VfvF8j050yegNkfk00L6YJbx1L/view?usp=sharing"
           target='_blank'
           rel='noopener noreferrer'
           className='inline-block text-white py-3 px-8 mt-5 text-lg rounded-full font-bold transition duration-300 hover:scale-105'

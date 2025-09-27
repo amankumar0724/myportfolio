@@ -94,6 +94,10 @@ import directionclinic10 from '../assets/Project_Images/DirectionClinic_10.png'
 import directionclinic11 from '../assets/Project_Images/DirectionClinic_11.png'
 import directionclinic12 from '../assets/Project_Images/DirectionClinic_12.png'
 import directionclinic13 from '../assets/Project_Images/DirectionClinic_13.png'
+import codesync1 from '../assets/Project_Images/codesync1.png';
+import codesync2 from '../assets/Project_Images/codesync2.png';
+import codesync3 from '../assets/Project_Images/codesync3.png';
+import codesync4 from '../assets/Project_Images/codesync4.png';
 
 
 
@@ -196,6 +200,23 @@ export const skillsData = [
     },
     {
       id: 1,
+      title: "CodeSync - Personalized Contest Creation Application",
+      type: "Website",
+      description:
+        "Implemented team features (creation, history tracking, and peer feedback), boosting collaborative upsolving efficiency by 30%. Integrated real-time notifications and optimized database queries to reduce contest generation latency by 40%.",
+      image: "",
+      images:[
+        codesync1,
+        codesync2,
+        codesync3,
+        codesync4,
+      ],
+      tags: ["JavaScript", "React JS", "Next JS", "Node JS", "MongoDb", "RESTful APIs", "Codeforces API"],
+      githubLink: "https://github.com/amankumar0724/CodeSync/tree/master",
+      demoLink: "https://code-sync-sandy.vercel.app/",
+    },
+    {
+      id: 2,
       title: "ThinkSync - Blog website",
       type: "Website",
       description:
@@ -213,7 +234,7 @@ export const skillsData = [
       demoLink: "https://thinksync-think-write-sync.onrender.com/",
     },
     {
-      id: 2,
+      id: 3,
       title: "SkillView - Virtual Interview Platform",
       type: "Website",
       description:
@@ -227,7 +248,7 @@ export const skillsData = [
       demoLink: "https://skillview-io.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Chit Chat",
       type: "Android",
       description:
@@ -243,7 +264,7 @@ export const skillsData = [
       demoLink: "",
     },
     {
-      id: 4,
+      id: 5,
       title: "Accident Detection App",
       type: "Android",
       description:
@@ -262,7 +283,7 @@ export const skillsData = [
       demoLink: "",
     },
     {
-      id: 5,
+      id: 6,
       title: "Direction - Clinic Management System",
       type: "Website",
       description:
@@ -276,7 +297,7 @@ export const skillsData = [
       demoLink: "https://direction-clinic-management-system.netlify.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Desktop Assistant",
       type: "Others",
       description:
