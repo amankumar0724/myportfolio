@@ -28,6 +28,7 @@ import chitchatLogo from '../assets/chitchatLogo.jpg'
 import curecartLogo from '../assets/curecartLogo.png'
 import skillviewLogo from '../assets/skillviewLogo.png'
 import directionClinicLogo from '../assets/directionClinicLogo.png'
+import plumLogo from '../assets/plumLogo.png'
 
 
 // project images 
@@ -315,6 +316,15 @@ export const skillsData = [
   export const experience = [
     {
       id: 0,
+      role: "Backend Developer Intern",
+      company: "PlumHQ",
+      companyLogo: plumLogo,
+      description: "Working on improving our communication and backend systems by migrating messaging to the Meta WhatsApp Business API. I also building an event-driven notification system using RabbitMQ and Postmark for scalable email delivery. Additionally, I automated Cult.fit membership fulfillment end-to-end. Alongside this, I improved operational visibility with tracking systems and strengthened security by resolving multiple vulnerabilities.",
+      duration: "Jan 2026 - Present",
+      tags: [ "Typescript", "Python", "Node JS", "MongoDb", "Firebase Firestore", "RabbitMQ", "Postmark", "Postman"],
+    },
+    {
+      id: 1,
       role: "Web Developer Intern",
       company: "Unified Mentor",
       companyLogo: unifiedLogo,
